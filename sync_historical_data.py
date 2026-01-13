@@ -28,8 +28,8 @@ import argparse
 # ============================================================================
 
 # Time zones
-LOCAL_TZ = pytz.timezone('America/Toronto')
-SLEEP_TZ = pytz.timezone("America/New_York")
+LOCAL_TZ = pytz.timezone('Asia/Tashkent')
+SLEEP_TZ = pytz.timezone('Asia/Tashkent')
 
 # Default values
 DEFAULT_DAYS_TO_SYNC = 365
