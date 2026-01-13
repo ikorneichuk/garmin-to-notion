@@ -202,7 +202,7 @@ def create_activity(client, database_id, activity):
         activity.get('activityType', {}).get('typeKey', 'Unknown'),
         activity_name
     )
-
+    print('Name:',activity_name,' Type:',activity_type)
     icon_url = ACTIVITY_ICONS.get(activity_subtype if activity_subtype != activity_type else activity_type)
 
     properties = {
